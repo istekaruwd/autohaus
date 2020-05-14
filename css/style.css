@@ -504,7 +504,8 @@ a:hover {
 .info-list {
     width: 100%;
     float: left;
-    height: auto
+    height: auto;
+    margin-bottom: 20px;
 }
 
 /* Part Compatibility */
@@ -784,6 +785,22 @@ a:hover {
     }
 }
 
+.cta-text {
+    font-size: 18px;
+    color: #333;
+}
+.cta-area a {
+    display: inline-block;
+    border: 1px solid #333;
+    color: #333;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+}
+.cta-area a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -896,7 +913,9 @@ a:hover {
 	#slider {
 		height: 131px;
 	}
-    .pre-car-title, .product-info-title {
+    .part-title,
+    .pre-car-title,
+    .product-info-title {
         font-size: 18px;
     }
     .gallery2 {
@@ -927,6 +946,13 @@ a:hover {
     }
     .scrollbar {
         padding: 10px;
+    }
+    .cta-text {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+    .cta-area  {
+        text-align: center;
     }
 
 }
